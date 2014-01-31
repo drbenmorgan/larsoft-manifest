@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="FNAL" fetch="http://cdcvs.fnal.gov/projects" />
+
+  <project path="larcore"
+           name="larcore"
+           remote="FNAL"
+           revision="master"/>
+
+  <project path="lardata"
+           name="lardata"
+           remote="FNAL"
+           revision="master"/>
+
+  <project path="larevt"
+           name="larevt"
+           remote="FNAL"
+           revision="master"/>
+
+  <project path="larsim"
+           name="larsim"
+           remote="FNAL"
+           revision="master"/>
+
+  <project path="larreco"
+           name="larreco"
+           remote="FNAL"
+           revision="master"/>
+
+  <project path="larana"
+           name="larana"
+           remote="FNAL"
+           revision="master"/>
+
+  <project path="larpandora"
+           name="larpandora"
+           remote="FNAL"
+           revision="master"/>
+
+  <project path="lareventdisplay"
+           name="lareventdisplay"
+           remote="FNAL"
+           revision="master"/>
+
+  <project path="larexamples"
+           name="larexamples"
+           remote="FNAL"
+           revision="master"/>
+</manifest>
+
