@@ -13,7 +13,7 @@ First of all you need Git and Python installed. Google Repo itself comes
 as a program which you install somewhere convenient, then run in an
 empty working directory.
 
-To get Google Repo, do
+Google Repo can be obtained directly:
 
 ``` shell
 $ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
@@ -23,15 +23,23 @@ $ chmod u+x ~/bin/repo
 You can use any directory you like to install repo into if `~/bin` isn't
 convenient for you.
 
+On Mac OS X, it can be installed through the [Homebrew](http://brew.sh) package
+manager. Simply do
+
+``` shell
+$ brew install repo
+```
+
 Now create an *empty* directory where you'll create a repo setup and
-clones of the larsoft repositories, for example:
+clones of the larsoft repositories, for example (assuming the `repo` command
+is on your `PATH`):
 
 ``` shell
 $ mkdir ~/larsoft-work
 $ cd ~/larsoft-work
-$ ~/bin/repo init -u https://github.com/drbenmorgan/larsoft-manifest.git
+$ repo init -u https://github.com/drbenmorgan/larsoft-manifest.git
 ...
-$ ~/bin/repo sync
+$ repo sync
 ... this may take some time ...
 Fetching projects: 100% (9/9), done.
 Checking out files: 100% (224/224), done.ut files:  33% (75/224)
