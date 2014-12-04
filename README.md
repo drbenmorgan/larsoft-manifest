@@ -1,11 +1,15 @@
 larsoft-manifest
 ================
 
-Manage LArSoft repositories using [Google Repo](http://code.google.com/p/git-repo/) manifests.
+Manage LArSoft repositories using [Google Repo](http://code.google.com/p/git-repo/) with a custom
+manifest for LArSoft.
 
 The FNAL LArSoft software is distributed as a set of modules divided
 between several git repositories. This is a test project to demonstrate
 checkout of these using Google's repo tool.
+
+More about the manifest XML format can be found in the
+[Repo Documentation](https://gerrit.googlesource.com/git-repo/+/master/docs/manifest-format.txt)
 
 Getting Started
 ===============
